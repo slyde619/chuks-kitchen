@@ -158,7 +158,7 @@ All done with Tailwind's responsive prefixes (`sm:`, `md:`, `lg:`), flexbox, and
 
 ```bash
 # Clone and install
-git clone <repo-url>
+git clone https://github.com/slyde619/chuks-kitchen
 cd chuks-kitchen
 pnpm install
 
