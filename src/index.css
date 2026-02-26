@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #ff7a18;
+  --color-primary-hover: #e56a10;
+  --color-dark: #1f2937;
+  --color-blue: #1e88e5;
+  --color-body: #f3f4f6;
+  --color-gray: #acacac;
+
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-brand: "Island Moments", cursive;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-body);
+    color: var(--color-dark);
+    font-family: var(--font-inter);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-14 py-[15px] rounded-[10px] font-semibold transition-colors hover:bg-primary-hover cursor-pointer;
+  }
+
+  .btn-outline {
+    @apply border border-primary text-primary px-5 py-2 rounded-lg font-medium transition-colors hover:bg-primary hover:text-white cursor-pointer;
+  }
+}
