@@ -2,6 +2,8 @@
 
 Frontend implementation of a food ordering web app for Chuks Kitchen, built from Figma designs provided by the TrueMinds Innovations design team. This is a frontend-only project — no backend, no APIs, no real authentication. 9 screens fully built, 2 more routed and in progress.
 
+**Live Demo:** [https://chuks-meal.netlify.app](https://chuks-meal.netlify.app/)
+
 ---
 
 ## What I Built
